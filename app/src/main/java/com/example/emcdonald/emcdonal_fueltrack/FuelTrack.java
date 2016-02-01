@@ -30,6 +30,8 @@ import com.google.gson.reflect.TypeToken;
  * Inspired by LonelyTwitter code from CMPUT 301 labs.
  * https://github.com/handshakinglemma/lonelyTwitter/tree/w16Thursday as of Feb-1-16.
  */
+
+// TODO: Finish implementation.
 public class FuelTrack extends Activity {
 
     private static final String FILENAME = "file.sav";

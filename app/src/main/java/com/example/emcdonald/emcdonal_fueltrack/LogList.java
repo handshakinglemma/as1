@@ -9,6 +9,8 @@ import java.util.ArrayList;
  * Inspired by LonelyTwitter code from CMPUT 301 labs.
  * https://github.com/handshakinglemma/lonelyTwitter/tree/w16Thursday as of Feb-1-16.
  */
+
+// TODO: Missing method functionality.
 public class LogList {
     private ArrayList<LogEntry> log = new ArrayList<LogEntry>();
 

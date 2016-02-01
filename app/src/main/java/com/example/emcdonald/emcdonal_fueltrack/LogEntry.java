@@ -22,7 +22,7 @@ public abstract class LogEntry {
 
     public LogEntry(String log_input) {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-        String delims = "[ ]+";
+        String delims = "[ ,]+";
         String[] log_info = log_input.split(delims);
         try {
             this.date = formatter.parse(log_info[0]);
