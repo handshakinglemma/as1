@@ -1,9 +1,13 @@
 package com.example.emcdonald.emcdonal_fueltrack;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 
 /**
  * Created by emcdonald on 01/02/16.
+ * Inspired by LonelyTwitter code from CMPUT 301 labs.
+ * https://github.com/handshakinglemma/lonelyTwitter/tree/w16Thursday as of Feb-1-16.
  */
 public class LogList {
     private ArrayList<LogEntry> log = new ArrayList<LogEntry>();
@@ -20,8 +24,7 @@ public class LogList {
         log.remove(entry);
     }
 
-    public int getCount() {
-        return log.size();
-    }
+    public LogEntry editEntry(LogEntry entry) {
+        return entry; }
 
 }

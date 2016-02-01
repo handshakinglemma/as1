@@ -25,6 +25,11 @@ import android.widget.ListView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+/**
+ * Created by emcdonal on 1/14/16.
+ * Inspired by LonelyTwitter code from CMPUT 301 labs.
+ * https://github.com/handshakinglemma/lonelyTwitter/tree/w16Thursday as of Feb-1-16.
+ */
 public class FuelTrack extends Activity {
 
     private static final String FILENAME = "file.sav";
